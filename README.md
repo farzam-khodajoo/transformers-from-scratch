@@ -38,14 +38,6 @@ Run the tests to make sure everything is wired up:
 pytest tests/
 ```
 
-## Design principles
-
-1. **Readable over fast.** No fused kernels, no clever tricks — just code I can read top to bottom.
-2. **Shape-check everything.** Every module has a comment or test showing input/output shapes.
-3. **Papers as source of truth.** Each component links back to the paper or reference it came from.
-4. **No framework shortcuts.** If PyTorch has a built-in, I try to reimplement it first before comparing.
-
-
 ## License
 
 MIT — but again, please don't use this in anything that matters.
