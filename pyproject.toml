@@ -1,0 +1,6 @@
+[tool.pytest.ini_options]
+# Tests live in their own folder, separate from the source code.
+testpaths = ["tests"]
+# Lets tests import modules as `from blocks.attention import ...`.
+pythonpath = ["src"]
+addopts = "-ra --import-mode=importlib"
